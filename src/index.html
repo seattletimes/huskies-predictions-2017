@@ -8,14 +8,17 @@
   <body>
     <%= t.include("partials/_nav.html") %>
 
-    <main class="content">
-      <h1 class="headline">Make your pick</h1>
-      <h2 class="subhead">Huskies season predictor</h2>
-      <p class="chatter">
-        Fresh off a College Football Playoff appearance, the Huskies are reloaded and ready for big things in 2017. Think you’ve got what it takes to guess the UW's 2017 season correctly? Put your football knowledge to the test by picking the winner of each game this season, then see how your preseason picks stack up against our experts at The Seattle Times.
-      </p>
+    <%= t.include("partials/_ad.html", { type: "banner" }) %>
 
+    <main class="content">
       <div class="outer"> 
+
+        <h1 class="headline">Make your pick</h1>
+        <h2 class="subhead">Huskies season predictor</h2>
+        <p class="chatter">
+          Fresh off a College Football Playoff appearance, the Huskies are reloaded and ready for big things in 2017. Think you’ve got what it takes to guess the UW's 2017 season correctly? Put your football knowledge to the test by picking the winner of each game this season, then see how your preseason picks stack up against our experts at The Seattle Times.
+        </p>
+
         <div class="container">
           <div class="schedule">
             <ul class="games">
@@ -71,11 +74,11 @@
               </ul>
           </div>
           <div class="tooltip">
-            <h1> Cougars 2017-2018 </h1>
+            <h1> Huskies 2017-2018 </h1>
             <div class="content">
               <div class="summary"> Your record prediction:<div class="record"> 0-0 </div> </div>
-              <div class="experts button"> See staff predictions </div>
-              <div class="hidden predictions">
+              <div class="show-experts button">See staff record predictions</div>
+              <div class="staff records">
                   <% for (var k in json.experts) { %>
                     <div class="record prediction">
                       <%= json.experts[k].name %>: <%= json.experts[k].wins %> - <%= json.experts[k].loss %>
@@ -89,7 +92,7 @@
         <h2>Staff predictions</h2>
         <div class="expert-opinions">
           <% for (var n in json.experts) { %>
-          <% var expert = json.experts[n]; console.log(expert); %>
+          <% var expert = json.experts[n] %>
           <div class="expert">
             <div class="wrapper">
               <h3><%= expert.name %></h3>

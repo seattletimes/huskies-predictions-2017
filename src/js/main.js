@@ -1,12 +1,10 @@
+require("./lib/ads");
+
 var $ = require("./lib/qsa");
 var closest = require("./lib/closest");
 var dot = require("./lib/dot");
 
 $(".row").forEach(el => el.addEventListener("click", () => el.classList.add("show-predictions")));
-
-var button = $.one(".experts.button");
-var staffPredictions = $.one(".hidden.predictions")
-button.addEventListener("click", staffPredictions.classList.add("show-record"));
 
 var userPredictions = {};
 
@@ -81,3 +79,5 @@ if (hash.picks) {
   }
   updateScore();
 }
+
+$.one(".show-experts").addEventListener("click", () => $.one(".staff.records").classList.add("show"));
