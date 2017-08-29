@@ -1,5 +1,5 @@
 require("./lib/ads");
-
+require("./lib/social");
 var $ = require("./lib/qsa");
 var closest = require("./lib/closest");
 var dot = require("./lib/dot");
