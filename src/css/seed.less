@@ -8,13 +8,14 @@ body {
 main {
   .headline {
     text-align: center;
-    font-size: 70px;
+    font-size: 90px;
     font-family: 'Paytone One', sans-serif;
     color: @team-color;
-    margin: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
 
     @media @mobile {
-      font-size: 30px;
+      font-size: 35px;
     }
   }
 
@@ -32,9 +33,11 @@ main {
   .chatter {
     margin-bottom: 40px;
     color: black;
-    max-width: 600px;
+    max-width: 800px;
     margin: auto;
     display: block;
+    font-family: @df-sans;
+    margin-bottom: 20px;
   }
 }
 
@@ -94,6 +97,10 @@ main {
   .logo {
     height: 80px;
 
+    &.faded {
+      opacity: .4;
+    }
+
     @media @mobile {
       height: 60px;
     }
@@ -147,12 +154,12 @@ main {
     }
   }
 
-  img:hover {
-      opacity: 0.7;
+  img {
+    transition: transform .2s ease-in-out;
   }
 
-  img {
-      opacity: 1.0;
+  img:hover {
+    transform: scale(1.2);
   }
 
   .away, .home{
@@ -221,6 +228,7 @@ main {
       @media @mobile {
         padding-right:0px;
         margin-right: 2px;
+        font-size: 12px;
       }
     }
   }
