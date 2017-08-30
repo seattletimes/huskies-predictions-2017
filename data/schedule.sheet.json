@@ -7,11 +7,14 @@
     "station": "FS1",
     "adam": "W",
     "percy": "W",
+    "bob": "W",
     "jon": "W",
     "larry": "W",
     "matt": "W",
     "scott": "W",
-    "paul": "W"
+    "paul": "W",
+    "sean": "W",
+    "evan": "W"
   },
   {
     "game": 2,
@@ -21,11 +24,14 @@
     "station": "Pac-12 Networks",
     "adam": "W",
     "percy": "W",
+    "bob": "W",
     "jon": "W",
     "larry": "W",
     "matt": "W",
     "scott": "W",
-    "paul": "W"
+    "paul": "W",
+    "sean": "W",
+    "evan": "W"
   },
   {
     "game": 3,
@@ -35,11 +41,14 @@
     "station": "Pac-12 Networks",
     "adam": "W",
     "percy": "W",
+    "bob": "W",
     "jon": "W",
     "larry": "W",
     "matt": "W",
     "scott": "W",
-    "paul": "W"
+    "paul": "W",
+    "sean": "W",
+    "evan": "W"
   },
   {
     "game": 4,
@@ -49,11 +58,14 @@
     "station": "TBD",
     "adam": "W",
     "percy": "W",
+    "bob": "W",
     "jon": "W",
     "larry": "W",
     "matt": "W",
     "scott": "W",
-    "paul": "W"
+    "paul": "W",
+    "sean": "W",
+    "evan": "W"
   },
   {
     "game": 5,
@@ -63,11 +75,14 @@
     "station": "TBD",
     "adam": "W",
     "percy": "W",
+    "bob": "W",
     "jon": "W",
     "larry": "W",
     "matt": "W",
     "scott": "W",
-    "paul": "W"
+    "paul": "W",
+    "sean": "W",
+    "evan": "W"
   },
   {
     "game": 6,
@@ -77,11 +92,14 @@
     "station": "TBD",
     "adam": "W",
     "percy": "W",
+    "bob": "W",
     "jon": "W",
     "larry": "W",
     "matt": "W",
     "scott": "W",
-    "paul": "W"
+    "paul": "W",
+    "sean": "W",
+    "evan": "W"
   },
   {
     "game": 7,
@@ -91,11 +109,14 @@
     "station": "TBD",
     "adam": "W",
     "percy": "W",
+    "bob": "W",
     "jon": "W",
     "larry": "W",
     "matt": "W",
     "scott": "W",
-    "paul": "W"
+    "paul": "W",
+    "sean": "W",
+    "evan": "W"
   },
   {
     "game": 8,
@@ -105,11 +126,14 @@
     "station": "TBD",
     "adam": "L",
     "percy": "W",
+    "bob": "W",
     "jon": "W",
     "larry": "W",
     "matt": "W",
     "scott": "W",
-    "paul": "W"
+    "paul": "W",
+    "sean": "W",
+    "evan": "W"
   },
   {
     "game": 9,
@@ -119,11 +143,14 @@
     "station": "TBD",
     "adam": "W",
     "percy": "W",
+    "bob": "W",
     "jon": "W",
     "larry": "W",
     "matt": "W",
     "scott": "W",
-    "paul": "W"
+    "paul": "W",
+    "sean": "W",
+    "evan": "W"
   },
   {
     "game": 10,
@@ -133,25 +160,31 @@
     "station": "TBD",
     "adam": "W",
     "percy": "W",
+    "bob": "W",
     "jon": "L",
     "larry": "L",
     "matt": "W",
     "scott": "L",
-    "paul": "W"
+    "paul": "W",
+    "sean": "W",
+    "evan": "W"
   },
   {
     "game": 11,
-    "location": "home ",
+    "location": "home",
     "opponent": "Utah",
     "date": "Nov. 18, TBD",
     "station": "TBD",
     "adam": "W",
     "percy": "W",
+    "bob": "W",
     "jon": "W",
     "larry": "W",
     "matt": "W",
     "scott": "W",
-    "paul": "W"
+    "paul": "W",
+    "sean": "W",
+    "evan": "W"
   },
   {
     "game": 12,
@@ -161,10 +194,13 @@
     "station": "TBD",
     "adam": "W",
     "percy": "W",
+    "bob": "W",
     "jon": "W",
     "larry": "W",
     "matt": "W",
     "scott": "W",
-    "paul": "W"
+    "paul": "W",
+    "sean": "L",
+    "evan": "W"
   }
 ]

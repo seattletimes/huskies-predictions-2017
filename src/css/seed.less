@@ -207,7 +207,7 @@ main {
 
   .experts {
     .display-flex();
-    .justify-content(flex-start);
+    .flex-wrap(wrap);
 
     @media @mobile {
       .flex-wrap(wrap);
@@ -216,14 +216,13 @@ main {
     .experts-box {
       // background-color: @df-middle-gray;
       // : none;
-      padding: 5px 16px;
+      padding: 5px 28px;
       color: black;
-      margin-bottom: 7px;
-      margin-right: 5px;
       text-decoration: none;
       display: inline-block;
       text-align: center;
       font-size: 14px;
+      max-width: 121px;
 
       @media @mobile {
         padding-right:0px;

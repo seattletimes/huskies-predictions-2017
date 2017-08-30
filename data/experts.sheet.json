@@ -8,10 +8,17 @@
   },
   "percy": {
     "name": "Percy Allen",
-    "comment": "Other than a Sept. 23 trip to Colorado, which is rematch of last year's Pac-12 title game, Washington isn't expected to face much resistance in the first half of the season. The Huskies are loaded with veteran stars at nearly every position, including  junior quarterback Jake Browning, a Heisman Trophy finalist last year, and senior linebacker Azeem Victor, a preseason All-American. Last season's run to the CFP semifinals was an unexpected surprise, but in reality fourth-year coach Chris Petersen built the roster expecting a return to national prominence in 2017.\n",
+    "comment": "Other than a Sept. 23 trip to Colorado, which is rematch of last year's Pac-12 title game, Washington isn't expected to face much resistance in the first half of the season. The Huskies are loaded with veteran stars at nearly every position, including  junior quarterback Jake Browning, a Heisman Trophy finalist last year, and senior linebacker Azeem Victor, a preseason All-American. Last season's run to the CFP semifinals was an unexpected surprise, but in reality fourth-year coach Chris Petersen built the roster expecting a return to national prominence in 2017.",
     "wins": 12,
     "loss": 0,
     "title": "UW reporter"
+  },
+  "bob": {
+    "name": "Bob Condotta",
+    "comment": "Huskies have a favorable regular season schedule and an experienced quarterback and what should still be a solid enough of an overall roster to run the table. Anything can obviously happen, but the conference doesn't seem as deep at the moment and UW appears the class of the North and better than anyone else aside from USC.",
+    "wins": 12,
+    "loss": 0,
+    "title": "Staff reporter"
   },
   "larry": {
     "name": "Larry Stone",
@@ -47,5 +54,19 @@
     "wins": 11,
     "loss": 1,
     "title": "College sports reporter"
+  },
+  "sean": {
+    "name": "Sean Quinton",
+    "comment": "The Huskies haven't had expectations this high since the days of the Don James, and those expectations are well deserved. The defensive front will be stifling, and the offensive dynamic. The biggest question mark will be whether the Dawgs can overcome the loss of five players to the NFL, including their best offensive weapon in John Ross.",
+    "wins": 11,
+    "loss": 1,
+    "title": "Sports Producer"
+  },
+  "evan": {
+    "name": "Evan Webeck",
+    "comment": "The Huskies are an immensely talented team with one of college football's top coaches and one of its weakest schedules. A loss along the way isn't out of the question, but this is a team on a mission. They're headed back to the College Football Playoff.",
+    "wins": 12,
+    "loss": 0,
+    "title": "Associate Sports producer"
   }
 }
