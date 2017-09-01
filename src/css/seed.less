@@ -101,6 +101,11 @@ main {
       opacity: .4;
     }
 
+    &.won {
+      opacity: 1;
+      transform: scale(1.15);
+    }
+
     @media @mobile {
       height: 60px;
     }
@@ -123,6 +128,21 @@ main {
 
 .info {
   padding-top: 20px;
+
+  .score {
+    font-size: 17px;
+    color: @df-off-white;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: 1px solid @df-light-gray;
+    background: @team-color;
+    border-radius: 4px;
+    text-align: center;
+
+    @media @mobile {
+      margin-right: 5px;
+    }
+  }
 
   @media @mobile {
     padding-left: 10px;
